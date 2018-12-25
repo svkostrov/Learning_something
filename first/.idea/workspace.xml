@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ac463c4-5b41-483c-82a7-0ce87b5c39c1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../pycharm/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pycharm/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pycharm/.idea/pycharm.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pycharm/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pycharm/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pycharm/venv/bin/activate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pycharm/venv/bin/activate.csh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pycharm/venv/bin/activate.fish" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pycharm/venv/bin/python" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pycharm/venv/bin/python3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pycharm/venv/bin/python3.6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pycharm/venv/lib64" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pycharm/venv/pyvenv.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/first.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/first.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,12 +13,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/year.py">
+        <entry file="file://$PROJECT_DIR$/prank.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="54" lean-forward="true" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+            <state relative-caret-position="45">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,6 +45,7 @@
         <option value="$PROJECT_DIR$/greed.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/year.py" />
+        <option value="$PROJECT_DIR$/prank.py" />
       </list>
     </option>
   </component>
@@ -69,7 +63,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -81,10 +74,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/main.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -103,7 +98,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.year">
+  <component name="RunManager" selected="Python.prank">
     <configuration name="greed" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="first" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,6 +162,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="prank" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="first" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prank.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="year" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="first" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -190,6 +206,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.prank" />
         <item itemvalue="Python.year" />
         <item itemvalue="Python.greed" />
         <item itemvalue="Python.label" />
@@ -220,18 +237,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="22" width="1922" height="1017" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24986821" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32924107" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.49973643" visible="true" weight="0.32924107" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5002636" side_tool="true" visible="true" weight="0.32924107" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.32924107" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="bottom" id="Version Control" order="5" weight="0.32924107" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32924107" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.32924107" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -242,9 +258,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/buttons.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -266,13 +279,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
     <entry file="file://$PROJECT_DIR$/year.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="54" lean-forward="true" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+          <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prank.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buttons.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="26" />
         </state>
       </provider>
     </entry>
