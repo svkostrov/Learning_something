@@ -29,3 +29,6 @@ if y == 0:
 
 else:
   print ("Результат: ", res)
+
+# except:
+  # print(sys.exc_info()[1])   вывод типа ошибки
