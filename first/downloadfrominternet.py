@@ -1,8 +1,11 @@
 from urllib import request
 import sys
 
-myurl = "https://cdn.pixabay.com/photo/2018/12/16/18/12/open-fire-3879031_960_720.jpg"
-myfile = "../kartinka.jpg"
+imgname = "tSTG6"
+img = imgname + ".png"
+
+myurl = "https://i.imgur.com/" + img
+myfile = "../" + img
 
 
 try:
