@@ -1,7 +1,7 @@
-from urllib import request, parse
+from urllib import request
 import re
 import os
-import sys
+
 
 nepodoshli = []
 b = list(range(1, 99))
