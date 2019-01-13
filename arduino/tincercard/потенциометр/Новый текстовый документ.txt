@@ -1,0 +1,23 @@
+boolean ledstate;
+boolean btnstate;
+
+void setup()
+{
+  pinMode(13, OUTPUT);
+  pinMode(12, INPUT_PULLUP);
+  
+}
+
+void loop()
+{
+  
+  btnstate = digitalRead(12);
+  if(btnstate == LOW){
+    ledstate=!ledstate;
+    digitalWrite(13, ledstate);
+    delay(500);
+  } 
+  
+  
+  
+}

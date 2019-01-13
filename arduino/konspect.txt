@@ -1,0 +1,9 @@
+pinMode(13, OUTPUT);       
+pinMode(12, INPUT_PULLUP);
+
+digitalWrite(13, HIGH); 13 пин +5V
+
+digitalRead (13);  чтение состояния, возвращает HIGH\LOW
+
+кнопка к земле резистор 1-10кОм
+
