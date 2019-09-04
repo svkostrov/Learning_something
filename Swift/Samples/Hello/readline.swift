@@ -1,0 +1,5 @@
+print("Please Enter your age", terminator: ".")
+let age2 = readLine()
+print("Your age is \(age2!).")
+let intage:Int? = Int(age2!)
+print("New age \(intage!)")
